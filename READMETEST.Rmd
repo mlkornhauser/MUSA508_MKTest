@@ -1,0 +1,21 @@
+---
+title: "README"
+author: "Maddy Kornhauser"
+date: "9/4/2020"
+output: html_document
+---
+
+## Analysis of my stats
+
+Here is my data
+
+
+```{r}
+str(mtcars)
+```
+
+plot the data
+
+```{r}
+t.test(mtcars$cyl, mtcars$mpg)
+```
